@@ -10,7 +10,7 @@
   
 | My Github Stats             | My most used languages |
 :-:|:-:
-![Stats](https://github-readme-stats.vercel.app/api?username=vovod&show_icons=true&theme=tokyonight)  |  ![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vovod&layout=compact&hide_progress=true&w=500)
+![Stats](https://github-readme-stats.vercel.app/api?username=vovod&&show_icons=true&theme=tokyonight)  |  ![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vovod&layout=compact&hide_progress=true&w=500)
   
 </table>
 </div>
