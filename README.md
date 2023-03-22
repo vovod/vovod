@@ -1,5 +1,5 @@
 <!-- <p align="center"> 
-  <img src="https://github.com/vovod/vovod/blob/main/Dino_Skate_Thumb.gif" alt="drawing" width="150">
+  <img src="">
 </p> -->
 <h1 align="center"> 
   🖐Hi, I'm Dương, welcome to my git! <height="60"> 
@@ -11,7 +11,9 @@
 | My Github Stats             | My most used languages |
 :-:|:-:
 ![Stats](https://github-readme-stats.vercel.app/api?username=vovod&show_icons=true&theme=radical&count_private=true&hide=issues)  |  ![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vovod&layout=compact&hide=c%2b%2b)
-  
 </table>
-</div>
-  
+  </div>
+     
+### My trophy:  
+   
+![rank](https://github-profile-trophy.vercel.app/?username=vovod&theme=dracula&&margin-h=0&margin-w=0)
