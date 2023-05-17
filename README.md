@@ -1,6 +1,7 @@
 <!-- <p align="center"> 
   <img src="">
 </p> -->
+![header](header.png)
 <h1 align="center"> 
   🖐Hi, I'm Dương, welcome to my git! <height="60"> 
 </h1>
