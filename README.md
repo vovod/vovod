@@ -21,7 +21,7 @@
   </div>
      
 ###
-[![Contributions](https://github-readme-activity-graph.cyclic.app/graph?username=vovod&theme=react-dark)](https://github.com/vovod)
+[![Contributions](https://fabianocouto-activity-graph.vercel.app/graph/?username=vovod&theme=react-dark)](https://github.com/vovod)
  
   ## ![](https://komarev.com/ghpvc/?username=vovod&color=238dd9&style=flat&label=VIEWS)
 <!-- ### My trophy:  
