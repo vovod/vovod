@@ -7,11 +7,10 @@
   🖐Hi, I'm Dương, welcome to my git! <height="60"> 
 </h1>
   
-<h1 align="center">  
+<div align="center">  
   
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vovod&theme=radical)  
-</h1>  
-  
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vovod&theme=radical)
+</div>
 <div align="center">
 <table>
   
