@@ -19,17 +19,18 @@
 [![Stats](https://acedev003-readme-stats.vercel.app/api?username=vovod&show_icons=true&theme=radical&count_private=true&hide=issues,contribs)](https://github.com/vovod)|[![Langs](https://acedev003-readme-stats.vercel.app/api/top-langs/?username=vovod&layout=compact&theme=radical&hide=c%2b%2b)](https://github.com/vovod)
 </table>
   </div>
-     
-###
-[![Contributions](https://fabianocouto-activity-graph.vercel.app/graph/?username=vovod&theme=react-dark)](https://github.com/vovod)
- 
-## ![](https://komarev.com/ghpvc/?username=vovod&color=238dd9&style=flat&label=VIEWS)
-## My trophy:  
-<h1 align="center">
-  <a href="https://www.holopin.io/hacktoberfest2023/hall/@vovod">
-    Hacktoberfest hall of Fame 2023
-  </a>
+<!-- <h1 align="center">
   <a href="https://github.com/vovod">
     <img alig src="https://github-profile-trophy.vercel.app/?username=vovod&theme=dracula"/>
   </a>
-</h1>
+</h1> -->
+
+###
+[![Contributions](https://fabianocouto-activity-graph.vercel.app/graph/?username=vovod&theme=react-dark)](https://github.com/vovod)
+
+
+## ![](https://komarev.com/ghpvc/?username=vovod&color=238dd9&style=flat&label=VIEWS)
+## My trophy:  
+<a href="https://www.holopin.io/hacktoberfest2023/hall/@vovod">
+  Hacktoberfest hall of Fame 2023
+</a>
