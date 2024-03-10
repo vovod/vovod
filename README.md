@@ -42,4 +42,7 @@
 <a href="https://www.freecodecamp.org/certification/B21DCCN284/responsive-web-design">
   Responsive Web Design
 </a>
-  
+----
+<a href="https://www.freecodecamp.org/certification/B21DCCN284/javascript-algorithms-and-data-structures">
+  Javascript Algorithms And Data Structures
+</a>
