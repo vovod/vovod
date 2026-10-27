@@ -16,14 +16,14 @@
   
 <div align="center">  
   
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vovod&theme=radical)
+<picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vovod/vovod/output/streak-light.svg"><img alt="GitHub Streak" src="https://raw.githubusercontent.com/vovod/vovod/output/streak-dark.svg"></picture>
 </div>
 <div align="center">
 <table>
   
 | My Github Stats             | My most used languages |
 :-:|:-:
-[![Stats](https://acedev003-readme-stats.vercel.app/api?username=vovod&show_icons=true&theme=radical&count_private=true&hide=issues,contribs)](https://github.com/vovod)|[![Langs](https://acedev003-readme-stats.vercel.app/api/top-langs/?username=vovod&layout=compact&theme=radical&hide=c%2b%2b)](https://github.com/vovod)
+<a href="https://github.com/vovod"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vovod/vovod/output/stats-light.svg"><img alt="Stats" src="https://raw.githubusercontent.com/vovod/vovod/output/stats-dark.svg"></picture></a>|<a href="https://github.com/vovod"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vovod/vovod/output/languages-light.svg"><img alt="Langs" src="https://raw.githubusercontent.com/vovod/vovod/output/languages-dark.svg"></picture></a>
 </table>
   </div>
 <!-- <h1 align="center">
@@ -33,7 +33,7 @@
 </h1> -->
 
 ###
-[![Contributions](https://fabianocouto-activity-graph.vercel.app/graph/?username=vovod&theme=react-dark)](https://github.com/vovod)
+<a href="https://github.com/vovod"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vovod/vovod/output/activity-light.svg"><img alt="Contributions" src="https://raw.githubusercontent.com/vovod/vovod/output/activity-dark.svg"></picture></a>
 
 
 ## ![](https://komarev.com/ghpvc/?username=vovod&color=238dd9&style=flat&label=VIEWS)
