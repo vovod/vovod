@@ -36,20 +36,15 @@
 <a href="https://github.com/vovod"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vovod/vovod/output/activity-light.svg"><img alt="Contributions" src="https://raw.githubusercontent.com/vovod/vovod/output/activity-dark.svg"></picture></a>
 
 
-## ![](https://komarev.com/ghpvc/?username=vovod&color=238dd9&style=flat&label=VIEWS)
-## My trophy:  
-<a href="https://www.holopin.io/hacktoberfest2023/hall/@vovod">
-  Hacktoberfest hall of Fame 2023
-</a>  
-----
-<a href="https://tree-nation.com/certificate/652931a8505ac">
-  Tree Certificate
-</a>
-----
-<a href="https://www.freecodecamp.org/certification/b21dccn284/responsive-web-design">
-  Responsive Web Design
-</a>
-----
-<a href="https://www.freecodecamp.org/certification/b21dccn284/javascript-algorithms-and-data-structures">
-  Javascript Algorithms And Data Structures
-</a>
+<h2 align="center">🏆 My trophies</h2>
+
+<p align="center">
+  <a href="https://www.holopin.io/hacktoberfest2023/hall/@vovod"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vovod/vovod/output/trophy-hacktoberfest-light.svg"><img alt="Hacktoberfest 2023 Hall of Fame" width="49%" src="https://raw.githubusercontent.com/vovod/vovod/output/trophy-hacktoberfest-dark.svg"></picture></a>
+  <a href="https://tree-nation.com/certificate/652931a8505ac"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vovod/vovod/output/trophy-tree-nation-light.svg"><img alt="Tree-Nation Tree Certificate" width="49%" src="https://raw.githubusercontent.com/vovod/vovod/output/trophy-tree-nation-dark.svg"></picture></a>
+  <a href="https://www.freecodecamp.org/certification/b21dccn284/responsive-web-design"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vovod/vovod/output/trophy-fcc-web-light.svg"><img alt="freeCodeCamp Responsive Web Design" width="49%" src="https://raw.githubusercontent.com/vovod/vovod/output/trophy-fcc-web-dark.svg"></picture></a>
+  <a href="https://www.freecodecamp.org/certification/b21dccn284/javascript-algorithms-and-data-structures"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vovod/vovod/output/trophy-fcc-js-light.svg"><img alt="freeCodeCamp JavaScript Algorithms and Data Structures" width="49%" src="https://raw.githubusercontent.com/vovod/vovod/output/trophy-fcc-js-dark.svg"></picture></a>
+</p>
+
+<p align="center">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=vovod&style=for-the-badge&color=c8912e&label=PROFILE+VIEWS">
+</p>

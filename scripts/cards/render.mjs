@@ -1,34 +1,68 @@
 const FONT = `'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif`;
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-// Royal Gold, stepped for each GitHub color mode. Gradient stops run light to dark;
-// on the light surface the golds go deeper so text keeps its contrast.
-export const THEMES = {
-  dark: {
-    bg: ['#1d1726', '#0a090f'],
-    glow: ['#f5c451', '#7c4dff'],
-    border: ['#fff1c1', '#c8912e', '#5b4419'],
-    text: '#f7f0dc',
-    muted: '#a89f88',
-    accent: ['#fff1c1', '#f5c451', '#c8912e'],
-    hot: ['#fff6d6', '#ffcf5a', '#e08a1e'],
-    highlight: '#ffcf5a',
-    ring: ['#fff6d6', '#f5c451', '#a86f1c', '#ffe7a3'],
-    rank: ['#fffaf0', '#f5c451', '#a86f1c'],
-    icon: '#f5c451',
+// Each palette is stepped for both GitHub color modes. Gradient stops run light to dark;
+// on the light surface the colors go deeper so text keeps its contrast.
+export const PALETTES = {
+  neon: {
+    dark: {
+      bg: ['#1c1036', '#0b0716'],
+      glow: ['#ff2e97', '#22d3ee'],
+      border: ['#ff2e97', '#7c3aed', '#22d3ee'],
+      text: '#efe9ff',
+      muted: '#9b91c6',
+      accent: ['#ff2e97', '#b14bff', '#22d3ee'],
+      hot: ['#fff3a1', '#ffd23f', '#ff7a3d'],
+      highlight: '#ffd23f',
+      ring: ['#ffd23f', '#ff2e97', '#b14bff', '#22d3ee'],
+      rank: ['#ffffff', '#ffe45e', '#ff2e97'],
+      icon: '#ffd23f',
+      sheen: 0.14,
+    },
+    light: {
+      bg: ['#fefcff', '#f1ebff'],
+      glow: ['#ff2e97', '#22d3ee'],
+      border: ['#ff5fae', '#8b5cf6', '#22d3ee'],
+      text: '#1d1533',
+      muted: '#6b6385',
+      accent: ['#e0177a', '#8b2be2', '#0e91b5'],
+      hot: ['#ffb020', '#ff7a1f', '#e0177a'],
+      highlight: '#c2185b',
+      ring: ['#ffb020', '#ff2e97', '#8b2be2', '#06b6d4'],
+      rank: ['#ff9f1c', '#e0177a', '#6d28d9'],
+      icon: '#db2777',
+      sheen: 0.6,
+    },
   },
-  light: {
-    bg: ['#fffdf8', '#f5eddc'],
-    glow: ['#f5c451', '#9b87f5'],
-    border: ['#ecd08a', '#c8912e', '#8a6420'],
-    text: '#2b2418',
-    muted: '#7d7260',
-    accent: ['#c8912e', '#a86f1c', '#7a4f12'],
-    hot: ['#f2b53c', '#e08a1e', '#a8560e'],
-    highlight: '#a8560e',
-    ring: ['#f5c451', '#c8912e', '#8a6420', '#e9c46a'],
-    rank: ['#e8b54a', '#a86f1c', '#5e3d0b'],
-    icon: '#b07a1f',
+  gold: {
+    dark: {
+      bg: ['#1d1726', '#0a090f'],
+      glow: ['#f5c451', '#7c4dff'],
+      border: ['#fff1c1', '#c8912e', '#5b4419'],
+      text: '#f7f0dc',
+      muted: '#a89f88',
+      accent: ['#fff1c1', '#f5c451', '#c8912e'],
+      hot: ['#fff6d6', '#ffcf5a', '#e08a1e'],
+      highlight: '#ffcf5a',
+      ring: ['#fff6d6', '#f5c451', '#a86f1c', '#ffe7a3'],
+      rank: ['#fffaf0', '#f5c451', '#a86f1c'],
+      icon: '#f5c451',
+      sheen: 0.14,
+    },
+    light: {
+      bg: ['#fffdf8', '#f5eddc'],
+      glow: ['#f5c451', '#9b87f5'],
+      border: ['#ecd08a', '#c8912e', '#8a6420'],
+      text: '#2b2418',
+      muted: '#7d7260',
+      accent: ['#c8912e', '#a86f1c', '#7a4f12'],
+      hot: ['#f2b53c', '#e08a1e', '#a8560e'],
+      highlight: '#a8560e',
+      ring: ['#f5c451', '#c8912e', '#8a6420', '#e9c46a'],
+      rank: ['#e8b54a', '#a86f1c', '#5e3d0b'],
+      icon: '#b07a1f',
+      sheen: 0.6,
+    },
   },
 };
 
@@ -45,6 +79,14 @@ const FIRE =
   'M 1.5 0.67 C 1.5 0.67 2.24 3.32 2.24 5.47 C 2.24 7.53 0.89 9.2 -1.17 9.2 C -3.23 9.2 -4.79 7.53 -4.79 5.47 L -4.76 5.11 C -6.78 7.51 -8 10.62 -8 13.99 C -8 18.41 -4.42 22 0 22 C 4.42 22 8 18.41 8 13.99 C 8 8.6 5.41 3.79 1.5 0.67 Z M -0.29 19 C -2.07 19 -3.51 17.6 -3.51 15.86 C -3.51 14.24 -2.46 13.1 -0.7 12.74 C 1.07 12.38 2.9 11.53 3.92 10.16 C 4.31 11.45 4.51 12.81 4.51 14.2 C 4.51 16.85 2.36 19 -0.29 19 Z';
 const CROWN = 'M-12 7L-13.5-5.5L-6.5 0.5L0-9.5L6.5 0.5L13.5-5.5L12 7Z M-12 9.5H12V12.5H-12Z';
 const SPARKLE = 'M0-6L1.4-1.4L6 0L1.4 1.4L0 6L-1.4 1.4L-6 0L-1.4-1.4Z';
+
+// Line icons on a 24-unit grid for the achievement tiles
+const BADGES = {
+  trophy:
+    'M8 4h8v4.5a4 4 0 0 1-8 0V4Z M8 5.5H5.5v1A3 3 0 0 0 8 9.4 M16 5.5h2.5v1A3 3 0 0 1 16 9.4 M12 12.5V16 M10 16h4l.5 3.5h-5Z',
+  leaf: 'M12 20.5v-6 M12 14.5C7.5 14.5 5 11.5 5 6.5c4.5 0 7 2.5 7 8Z M12 12c0-4.5 2.5-7 7-7 0 5-2.5 7-7 7Z',
+  cap: 'M2.5 9.5 12 5l9.5 4.5L12 14Z M6.5 11.5v4.2c0 1.4 2.5 2.8 5.5 2.8s5.5-1.4 5.5-2.8v-4.2 M21.5 9.5v5',
+};
 
 const esc = (value) => String(value).replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 const r2 = (n) => Math.round(n * 100) / 100;
@@ -108,9 +150,24 @@ function monotonePath(points) {
   return d;
 }
 
-// Shared frame: gradient surface, two corner glows, a faint dot texture and a gradient border
-function card({ w, h, t, label, style = '', motion = '', defs = '', body }) {
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" fill="none" role="img" aria-label="${esc(label)}">
+// Shared frame: gradient surface, two corner glows, a faint dot texture and a gradient border.
+// `pad` adds a transparent margin (and `padBottom` more below), so tiles that sit inline
+// in the README keep a gap between them.
+function card({
+  w,
+  h,
+  t,
+  label,
+  style = '',
+  motion = '',
+  defs = '',
+  body,
+  pad = 0,
+  padBottom = pad,
+}) {
+  const outerW = w + 2 * pad;
+  const outerH = h + pad + padBottom;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${outerW}" height="${outerH}" viewBox="0 0 ${outerW} ${outerH}" fill="none" role="img" aria-label="${esc(label)}">
 <title>${esc(label)}</title>
 <style>
 text { font-family: ${FONT}; }
@@ -133,6 +190,7 @@ ${style}
 <clipPath id="card"><rect width="${w}" height="${h}" rx="14"/></clipPath>
 ${defs}
 </defs>
+<g transform="translate(${pad} ${pad})">
 <g clip-path="url(#card)">
 <rect width="${w}" height="${h}" fill="url(#bg)"/>
 <rect width="${w}" height="${h}" fill="url(#dots)"/>
@@ -141,6 +199,7 @@ ${defs}
 ${body}
 </g>
 <rect x="0.75" y="0.75" width="${w - 1.5}" height="${h - 1.5}" rx="13.25" stroke="url(#border)" stroke-opacity="0.75" stroke-width="1.5"/>
+</g>
 </svg>
 `;
 }
@@ -365,5 +424,33 @@ export function activityCard(m, t) {
 ${dots.join('\n')}
 ${peak === last ? '' : pulse(points[last], t.accent[2])}
 ${peakValue ? `${pulse(points[peak], t.hot[1])}\n<text class="peak fade" style="animation-delay:2.2s" x="${r2(points[peak].x)}" y="${r2(points[peak].y - 18)}" text-anchor="middle">${num(peakValue)}</text>` : ''}`,
+  });
+}
+
+// A linked tile per achievement; the sheen sweeps across each tile in turn
+export function achievementCard(item, t, index = 0) {
+  const w = 400;
+  const h = 84;
+  return card({
+    w,
+    h,
+    t,
+    pad: 4,
+    padBottom: 16,
+    label: `${item.title}, ${item.eyebrow}`,
+    style: `.eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 1.4px; fill: ${t.muted}; }
+.name { font-size: 15px; font-weight: 700; fill: ${t.text}; }`,
+    motion: `.sheen { animation: sheen 8s ease-in-out ${r2(1 + index * 1.5)}s infinite; }
+  @keyframes sheen { 0% { opacity: 0; transform: translateX(0); } 6% { opacity: 1; } 22%, 100% { opacity: 0; transform: translateX(560px); } }`,
+    defs: `<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">${stops(t.ring)}</linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="${t.sheen}"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>`,
+    body: `<circle cx="44" cy="42" r="24" fill="${t.bg[1]}" fill-opacity="0.55" stroke="url(#ring)" stroke-width="2" filter="url(#soft)"/>
+<g transform="translate(32 30)"><path stroke="url(#hot)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="${BADGES[item.icon]}"/></g>
+<g class="fade">
+<text class="eyebrow" x="84" y="36">${esc(item.eyebrow)}</text>
+<text class="name" x="84" y="58">${esc(item.title)}</text>
+</g>
+<path stroke="${t.muted}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M370 36H380V46M380 36L369 47"/>
+<g transform="skewX(-20)"><rect class="sheen" x="-100" y="0" width="70" height="${h}" fill="url(#sheen)" opacity="0"/></g>`,
   });
 }
