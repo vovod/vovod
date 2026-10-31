@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" fill="none" role="img" aria-label="103,015 total contributions, current streak 0, longest streak 521">
+<title>103,015 total contributions, current streak 0, longest streak 521</title>
+<style>
+text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.big { font-size: 30px; font-weight: 800; letter-spacing: -0.5px; }
+.caps { font-size: 10px; font-weight: 700; letter-spacing: 1.2px; fill: #6b6385; }
+.range { font-size: 12px; fill: #1d1533; }
+.streak { font-size: 34px; font-weight: 800; }
+@media (prefers-reduced-motion: no-preference) {
+  .fade { animation: fade 0.7s ease-out both; }
+  @keyframes fade { from { opacity: 0; } }
+  .pop { animation: pop 0.7s cubic-bezier(0.3, 1.6, 0.5, 1) both; }
+  .flicker { transform-box: fill-box; transform-origin: 50% 100%; animation: flicker 1.8s ease-in-out infinite alternate; }
+  .halo { transform-box: fill-box; transform-origin: center; animation: halo 3s ease-in-out infinite; }
+  @keyframes pop { from { font-size: 4px; opacity: 0; } }
+  @keyframes flicker { 50% { transform: scale(0.93, 1.07); } 100% { transform: scale(1.04, 0.96); } }
+  @keyframes halo { 50% { opacity: 0.35; } }
+}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fefcff"/><stop offset="1" stop-color="#f1ebff"/></linearGradient>
+<linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff5fae"/><stop offset="0.5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e0177a"/><stop offset="0.5" stop-color="#8b2be2"/><stop offset="1" stop-color="#0e91b5"/></linearGradient>
+<linearGradient id="hot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb020"/><stop offset="0.5" stop-color="#ff7a1f"/><stop offset="1" stop-color="#e0177a"/></linearGradient>
+<radialGradient id="glow-a"><stop offset="0" stop-color="#ff2e97" stop-opacity="0.32"/><stop offset="1" stop-color="#ff2e97" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow-b"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.2"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#1d1533" fill-opacity="0.07"/></pattern>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="card"><rect width="495" height="195" rx="14"/></clipPath>
+<linearGradient id="divider" x1="0" y1="34" x2="0" y2="162" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6385" stop-opacity="0"/><stop offset="0.5" stop-color="#6b6385" stop-opacity="0.6"/><stop offset="1" stop-color="#6b6385" stop-opacity="0"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb020"/><stop offset="0.33" stop-color="#ff2e97"/><stop offset="0.67" stop-color="#8b2be2"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+<mask id="flame-gap"><rect width="495" height="195" fill="white"/><ellipse cx="247.5" cy="30" rx="14" ry="18" fill="black"/></mask>
+</defs>
+<g transform="translate(0 0)">
+<g clip-path="url(#card)">
+<rect width="495" height="195" fill="url(#bg)"/>
+<rect width="495" height="195" fill="url(#dots)"/>
+<circle cx="495" cy="0" r="195" fill="url(#glow-a)"/>
+<circle cx="0" cy="195" r="175.5" fill="url(#glow-b)"/>
+<line x1="165" y1="34" x2="165" y2="162" stroke="url(#divider)" stroke-width="1"/>
+<line x1="330" y1="34" x2="330" y2="162" stroke="url(#divider)" stroke-width="1"/>
+<g class="fade" style="animation-delay:0.5s">
+<text class="big" x="82.5" y="88" text-anchor="middle" fill="url(#accent)">103,015</text>
+<text class="caps" x="82.5" y="118" text-anchor="middle">TOTAL CONTRIBUTIONS</text>
+<text class="range" x="82.5" y="144" text-anchor="middle">Feb 8, 2022 – Present</text>
+</g>
+<g class="fade" style="animation-delay:0.2s" mask="url(#flame-gap)">
+<circle class="halo" cx="247.5" cy="74" r="42" stroke="url(#ring)" stroke-width="10" stroke-opacity="0.18"/>
+<circle cx="247.5" cy="74" r="42" stroke="url(#ring)" stroke-width="5" filter="url(#soft)"/>
+</g>
+<g class="fade" style="animation-delay:0.4s" transform="translate(247.5 15)"><g class="flicker"><path fill="url(#hot)" filter="url(#soft)" d="M 1.5 0.67 C 1.5 0.67 2.24 3.32 2.24 5.47 C 2.24 7.53 0.89 9.2 -1.17 9.2 C -3.23 9.2 -4.79 7.53 -4.79 5.47 L -4.76 5.11 C -6.78 7.51 -8 10.62 -8 13.99 C -8 18.41 -4.42 22 0 22 C 4.42 22 8 18.41 8 13.99 C 8 8.6 5.41 3.79 1.5 0.67 Z M -0.29 19 C -2.07 19 -3.51 17.6 -3.51 15.86 C -3.51 14.24 -2.46 13.1 -0.7 12.74 C 1.07 12.38 2.9 11.53 3.92 10.16 C 4.31 11.45 4.51 12.81 4.51 14.2 C 4.51 16.85 2.36 19 -0.29 19 Z"/></g></g>
+<text class="streak pop" x="247.5" y="86" text-anchor="middle" fill="url(#hot)" filter="url(#soft)">0</text>
+<g class="fade" style="animation-delay:0.7s">
+<text class="caps" x="247.5" y="140" text-anchor="middle" style="fill:#c2185b">CURRENT STREAK</text>
+<text class="range" x="247.5" y="164" text-anchor="middle">Oct 31</text>
+</g>
+<g class="fade" style="animation-delay:0.9s">
+<text class="big" x="412.5" y="88" text-anchor="middle" fill="url(#accent)">521</text>
+<text class="caps" x="412.5" y="118" text-anchor="middle">LONGEST STREAK</text>
+<text class="range" x="412.5" y="144" text-anchor="middle">Mar 23, 2022 – Aug 25, 2023</text>
+</g>
+</g>
+<rect x="0.75" y="0.75" width="493.5" height="193.5" rx="13.25" stroke="url(#border)" stroke-opacity="0.75" stroke-width="1.5"/>
+</g>
+</svg>
